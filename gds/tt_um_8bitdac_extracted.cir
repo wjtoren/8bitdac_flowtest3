@@ -1,0 +1,97 @@
+* Extracted by KLayout with SKY130 LVS runset on : 04/07/2026 10:57
+
+* cell tt_um_8bitdac
+.SUBCKT tt_um_8bitdac
+* cell instance $1 r0 *1 190.345,139.565
+X$1 VGND ui_in[4] ui_in[3] ui_in[5] ui_in[2] ui_in[6] ui_in[1] ui_in[7]
++ ui_in[0] ua[0] DAC
+.ENDS tt_um_8bitdac
+
+* cell DAC
+* pin GND
+* pin I0
+* pin I1
+* pin I2
+* pin I3
+* pin I4
+* pin I5
+* pin I6
+* pin I7
+* pin Vout
+.SUBCKT DAC GND I0 I1 I2 I3 I4 I5 I6 I7 Vout
+* device instance $1 r0 *1 -95.005,32.23 sky130_fd_pr__res_generic_po
+XR$1 \$23 Vout sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $2 r0 *1 -95.005,31.12 sky130_fd_pr__res_generic_po
+XR$2 \$24 Vout sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $3 r0 *1 -95.005,30.01 sky130_fd_pr__res_generic_po
+XR$3 \$24 I7 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000 A=4.75e+13
++ P=191000000
+* device instance $4 r0 *1 -95.005,28.9 sky130_fd_pr__res_generic_po
+XR$4 \$23 \$20 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $5 r0 *1 -95.005,23.35 sky130_fd_pr__res_generic_po
+XR$5 \$18 I5 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000 A=4.75e+13
++ P=191000000
+* device instance $6 r0 *1 -95.005,21.13 sky130_fd_pr__res_generic_po
+XR$6 \$17 \$16 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $7 r0 *1 -95.005,27.79 sky130_fd_pr__res_generic_po
+XR$7 \$23 \$22 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $8 r0 *1 -95.005,25.57 sky130_fd_pr__res_generic_po
+XR$8 \$17 \$20 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $9 r0 *1 -95.005,5.59 sky130_fd_pr__res_generic_po
+XR$9 GND \$1 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000 A=4.75e+13
++ P=191000000
+* device instance $10 r0 *1 -95.005,10.03 sky130_fd_pr__res_generic_po
+XR$10 \$6 I1 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000 A=4.75e+13
++ P=191000000
+* device instance $11 r0 *1 -95.005,11.14 sky130_fd_pr__res_generic_po
+XR$11 \$6 \$8 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $12 r0 *1 -95.005,6.7 sky130_fd_pr__res_generic_po
+XR$12 I0 \$4 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000 A=4.75e+13
++ P=191000000
+* device instance $13 r0 *1 -95.005,24.46 sky130_fd_pr__res_generic_po
+XR$13 \$18 \$20 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $14 r0 *1 -95.005,14.47 sky130_fd_pr__res_generic_po
+XR$14 \$11 \$10 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $15 r0 *1 -95.005,17.8 sky130_fd_pr__res_generic_po
+XR$15 \$12 \$14 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $16 r0 *1 -95.005,7.81 sky130_fd_pr__res_generic_po
+XR$16 \$5 \$4 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $17 r0 *1 -95.005,20.02 sky130_fd_pr__res_generic_po
+XR$17 I4 \$16 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $18 r0 *1 -95.005,8.92 sky130_fd_pr__res_generic_po
+XR$18 \$5 \$1 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $19 r0 *1 -95.005,26.68 sky130_fd_pr__res_generic_po
+XR$19 I6 \$22 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $20 r0 *1 -95.005,12.25 sky130_fd_pr__res_generic_po
+XR$20 \$5 \$8 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $21 r0 *1 -95.005,22.24 sky130_fd_pr__res_generic_po
+XR$21 \$17 \$14 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $22 r0 *1 -95.005,16.69 sky130_fd_pr__res_generic_po
+XR$22 \$12 I3 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $23 r0 *1 -95.005,18.91 sky130_fd_pr__res_generic_po
+XR$23 \$11 \$14 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $24 r0 *1 -95.005,13.36 sky130_fd_pr__res_generic_po
+XR$24 I2 \$10 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+* device instance $25 r0 *1 -95.005,15.58 sky130_fd_pr__res_generic_po
+XR$25 \$11 \$8 sky130_fd_pr__res_generic_po R=9158 L=95000000 W=500000
++ A=4.75e+13 P=191000000
+.ENDS DAC
